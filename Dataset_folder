@@ -1,5 +1,6 @@
+## Dataset: Google Speech Commands V2
 
-# Dataset: Google Speech Commands V2
+
 This project uses the Google Speech Commands Dataset V2, an open dataset created by Google for training and testing keyword spotting models.
 Contains 105,000+ WAV audio clips
 Each clip: 1 second long, sampled at 16 kHz, mono-channel
