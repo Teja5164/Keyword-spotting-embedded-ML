@@ -1,4 +1,4 @@
-# Keyword-spotting-embedded-ML
+## Keyword-spotting-embedded-ML
 
 
 This project implements a complete offline Keyword Spotting (KWS) system that can recognize specific spoken keywords in real-time on embedded devices with limited compute power. The goal is to build a small, efficient, and low-power machine learning model that listens to audio streams and detects predefined keywords such as:
