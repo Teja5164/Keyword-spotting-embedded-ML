@@ -32,7 +32,7 @@ The primary objective of this project is to demonstrate how TinyML can enable re
 * Google Speech Commands Dataset V2
 * Google Colab (for training)
 * Embedded boards (for deployment)
-# 🚀 PROJECT PLAN — OFFLINE KEYWORD SPOTTING
+# PROJECT PLAN — OFFLINE KEYWORD SPOTTING
 # Step 1: Setup & Data
 Install Python, TensorFlow, librosa
 Download Google Speech Commands Dataset
