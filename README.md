@@ -19,13 +19,13 @@ The primary objective of this project is to demonstrate how TinyML can enable re
 3.Assistive technologies
 4.Wearables
 5.IoT devices
-# 💡 Project Features
+# Project Features
 ✅ Real-time keyword spotting using deep learning
 ✅ Lightweight TensorFlow Lite model optimized for embedded devices
 ✅ Offline — no cloud required
 ✅ Recognizes 5 keywords + background noise
 ✅ Portable and power-efficient
-# 🧰 Tools & Technologies
+# Tools & Technologies
 * TensorFlow 2.x / TensorFlow Lite
 * Python 3.x
 * librosa (audio feature extraction)
@@ -49,5 +49,20 @@ Convert to TensorFlow Lite model (.tflite)
 Test model on laptop (simulate embedded)
 # Step 6: Deployment (optional)
 Deploy on ESP32 / Raspberry Pi
-Test real-time audio detection
+*Test real-time audio detection
 
+#  Conclusion
+This project showcases how TinyML and embedded keyword spotting can enable real-time, offline voice-controlled interfaces on low-power hardware. By using lightweight neural networks and optimized TensorFlow Lite models, we can deploy smart audio recognition on microcontrollers without the need for cloud services — ensuring privacy, responsiveness, and energy efficiency.
+
+This approach opens the door for creating intelligent IoT devices, industrial automation systems, and smart consumer products that can interpret voice commands even in constrained environments. The project also serves as an excellent example of applying embedded machine learning techniques in practical, real-world scenarios.
+
+# Future Work
+1.Add more keywords and increase vocabulary
+2.Improve model accuracy using advanced architectures (e.g., depthwise separable CNNs)
+3.Implement wake-word + full command pipeline (multi-stage detection)
+4.Add support for continuous streaming audio (real-time inference)
+5.Deploy on ultra-low power microcontrollers (e.g., STM32, Cortex-M)
+6.Add second-stage NLP pipeline for more advanced voice interaction
+7.Optimize model using quantization for smaller memory footprint
+8.Benchmark model latency and performance on various hardware
+9.Integrate with hardware actions (LED, motor control, home automation)
