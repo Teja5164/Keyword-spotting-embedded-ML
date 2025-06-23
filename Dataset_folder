@@ -1,0 +1,14 @@
+
+# Dataset: Google Speech Commands V2
+This project uses the Google Speech Commands Dataset V2, an open dataset created by Google for training and testing keyword spotting models.
+Contains 105,000+ WAV audio clips
+Each clip: 1 second long, sampled at 16 kHz, mono-channel
+Covers 35 spoken keywords such as:
+"yes", "no", "up", "down", "left", "right", "on", "off", "stop", "go", etc.
+Includes a folder for background noise (_background_noise_)
+Clips recorded by thousands of different people in various environments — helps model generalize to different speakers and noise conditions
+
+Source:
+http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz
+
+This dataset is ideal for building offline voice-controlled applications, testing tinyML models, and experimenting with speech recognition on embedded devices.
